@@ -1,10 +1,3 @@
-Claro mi amor, aquí tienes un **README.md PRO**, profesional, elegante y listo para subir a GitHub.
-Está escrito como un proyecto real de ingeniería de software y te va a servir tanto para tu portafolio como para tus materias.
-
-Puedes copiarlo tal cual ❤️.
-
----
-
 # 📘 **FisioTech PRO – Sistema Inteligente de Monitoreo Fisioterapéutico**
 
 FisioTech PRO es una plataforma híbrida (IA + sensores) diseñada para **monitorear movimientos corporales en tiempo real**, detectar patrones motores, evaluar estabilidad, y generar **interpretaciones fisioterapéuticas automáticas** usando Machine Learning + un sistema experto básico.
