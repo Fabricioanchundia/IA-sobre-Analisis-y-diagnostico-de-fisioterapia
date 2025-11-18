@@ -1,0 +1,14 @@
+
+====================================
+📘 INFORME FINAL DEL MODELO OPTIMIZADO
+====================================
+
+📊 Datos evaluados: 35000 registros
+🎯 Precisión global: 77.06 %
+💪 F1-score ponderado: 76.45 %
+
+📁 Archivos generados:
+ - reportes/reporte_clasificacion.txt
+ - reportes/matriz_confusion.png
+ - reportes/metricas_globales.csv
+

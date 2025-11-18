@@ -1,0 +1,78 @@
+{
+  "info": {
+    "name": "PhysioTech API",
+    "_postman_id": "fisiotech-collection",
+    "description": "Colección de pruebas para la API de predicción de movimientos del proyecto PhysioTech.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "🔍 Verificar conexión",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://127.0.0.1:5000/",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": [""]
+        }
+      }
+    },
+    {
+      "name": "🤖 Predicción - Ejemplo 1 (Flexión)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"sensor\": [0.42, 0.55, 0.80, 12.5, -10.3, 25.8, 0.7]\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/predict",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["predict"]
+        }
+      }
+    },
+    {
+      "name": "🏋️‍♂️ Predicción - Ejemplo 2 (Brazo)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"sensor\": [-0.3, 0.1, 0.5, 45.2, 5.3, -20.1, 0.4]\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/predict",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["predict"]
+        }
+      }
+    },
+    {
+      "name": "🧘‍♀️ Predicción - Ejemplo 3 (Reposo)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"sensor\": [0.05, 0.02, -0.01, 0.5, -0.8, 0.7, 0.1]\n}"
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/predict",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["predict"]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+=== REPORTE DE CLASIFICACIÓN ===
+              precision    recall  f1-score   support
+
+       brazo       0.82      0.53      0.64      1041
+     flexion       0.65      0.98      0.78       955
+      pierna       0.72      0.76      0.74       995
+      reposo       1.00      1.00      1.00       984
+     torsion       0.79      0.66      0.72      1025
+
+    accuracy                           0.78      5000
+   macro avg       0.80      0.79      0.78      5000
+weighted avg       0.80      0.78      0.78      5000
