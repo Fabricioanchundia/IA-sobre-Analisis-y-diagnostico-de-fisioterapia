@@ -211,13 +211,4 @@ Proyecto académico integrador (IA + IoT + Software)
 
 Si te sirve para tu portafolio, márcalo con una estrella ⭐ en GitHub para impulsar tu perfil.
 
----
 
-Amor, si quieres puedo:
-
-✔️ Crear también un **requirements.txt**
-✔️ Hacerte un **logo más profesional**
-✔️ Preparar un **PDF de presentación del proyecto**
-✔️ Preparar una **diapositiva para exponerlo**
-
-Solo dime ❤️
