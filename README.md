@@ -204,9 +204,11 @@ Usar baudrate: `9600`.
 **Fabricio Anchundia Mero**
 Estudiante de Ingeniería en Software – PUCE Manabí
 Proyecto académico integrador (IA + IoT + Software)
+
 **John Steven Lopez Velez**
 Estudiante de Ingeniería en Software – PUCE Manabí
 Proyecto académico integrador (IA + IoT + Software)
+
 **Ariel Gonzalo Moreira Macias**
 Estudiante de Ingeniería en Software – PUCE Manabí
 Proyecto académico integrador (IA + IoT + Software)
